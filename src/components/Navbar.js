@@ -45,8 +45,8 @@ function Navbar() {
                 <ul className="nav-list">
                     <li className="nav-item"><Link to="/" className="nav-link">Home</Link></li>
                     <li className="nav-item"><Link to="/place" className="nav-link">Place to stay</Link></li>
-                    <li className="nav-item"><a href="##" className="nav-link">NFTs</a></li>
-                    <li className="nav-item"><a href="##" className="nav-link">Community</a></li>
+                    <li className="nav-item"><Link to="/" className="nav-link">NFTs</Link></li>
+                    <li className="nav-item"><Link to="" className="nav-link">Community</Link></li>
                     <li className="header__btn">
                         <button className="header__btn-link" onClick={connectWallet}>Connect wallet</button>
                     </li>
