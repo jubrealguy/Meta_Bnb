@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/Meta_Bnb/static/css/main.6d1b7c75.css",
+    "main.js": "/Meta_Bnb/static/js/main.0c4494cc.js",
+    "static/media/tilt.png": "/Meta_Bnb/static/media/tilt.470fe9d80ca11fd5e9ed.png",
+    "static/media/intro_image.png": "/Meta_Bnb/static/media/intro_image.d5c7398ee115507241ab.png",
+    "static/media/frame-06.png": "/Meta_Bnb/static/media/frame-06.2bbb64bcc3c5d2f6aafa.png",
+    "static/media/frame-03.png": "/Meta_Bnb/static/media/frame-03.d17f5d53f2846668db5a.png",
+    "static/media/frame-12.png": "/Meta_Bnb/static/media/frame-12.22dfe8a832b9efbe941a.png",
+    "static/media/frame-11.png": "/Meta_Bnb/static/media/frame-11.ce38450d16d1bea4d038.png",
+    "static/media/frame-08.png": "/Meta_Bnb/static/media/frame-08.b6fb32fdf9f9885cb3fe.png",
+    "static/media/frame-13.png": "/Meta_Bnb/static/media/frame-13.717a1e7c8c1cd41043fd.png",
+    "static/media/frame-16.png": "/Meta_Bnb/static/media/frame-16.4360cbddf37a1546e2ae.png",
+    "static/media/frame-04.png": "/Meta_Bnb/static/media/frame-04.e9b5b67f44ca8f1f0860.png",
+    "static/media/frame-14.png": "/Meta_Bnb/static/media/frame-14.82bec3cdfff5e93c9bb0.png",
+    "static/media/frame-15.png": "/Meta_Bnb/static/media/frame-15.ca876fcd6373ee205d51.png",
+    "static/media/frame-02.png": "/Meta_Bnb/static/media/frame-02.181e0cf7622daa224dd1.png",
+    "static/media/frame-09.png": "/Meta_Bnb/static/media/frame-09.8a951988a59b865fc488.png",
+    "static/media/frame-05.png": "/Meta_Bnb/static/media/frame-05.ee4d01bde15a34419130.png",
+    "static/media/frame-07.png": "/Meta_Bnb/static/media/frame-07.fc1defee9c21c5f29c19.png",
+    "static/media/frame-10.png": "/Meta_Bnb/static/media/frame-10.a054888935466ff45e68.png",
+    "static/media/metamask-red.png": "/Meta_Bnb/static/media/metamask-red.f1bc39a49a99e282a3a6.png",
+    "static/media/frame-01.png": "/Meta_Bnb/static/media/frame-01.3e8e99ea1f19ad9fd7f8.png",
+    "index.html": "/Meta_Bnb/index.html",
+    "main.6d1b7c75.css.map": "/Meta_Bnb/static/css/main.6d1b7c75.css.map",
+    "main.0c4494cc.js.map": "/Meta_Bnb/static/js/main.0c4494cc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6d1b7c75.css",
+    "static/js/main.0c4494cc.js"
+  ]
+}
