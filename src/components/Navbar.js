@@ -53,24 +53,27 @@ function Navbar() {
                 </ul>
             </nav>
 
-            {clickedConnect ? <div className = "connectWallet">
-            <div>
-                <h4 className = "connectWallet__head">Connect Wallet</h4>
-                <img src={x} alt="" className = "connectWallet-imgdir" onClick={cancel} />
-            </div>
-            <p className = "connectWallet__paragraph">Choose your preferred wallet</p>
-            <ul>
-                <li>
-                    <img src={metataskred} alt="" className = "connectWallet-img" />
-                    <p className = "connectWallet-name">Metamask</p>
-                    <img src={direction} alt="" className = "connectWallet-imgdir" />
-                </li>
-                <li>
-                    <img src={WalletConnect} alt="" className = "connectWallet-img" />
-                    <p className = "connectWallet-name">WalletConnect</p>
-                    <img src={direction} alt="" className = "connectWallet-imgdir" />
-                </li>
-            </ul>
+            {clickedConnect ? 
+            <div className='box-connectwallet'>
+                <div className = "connectWallet">
+                    <div>
+                        <h4 className = "connectWallet__head">Connect Wallet</h4>
+                        <img src={x} alt="" className = "connectWallet-imgdir" onClick={cancel} />
+                    </div>
+                    <p className = "connectWallet__paragraph">Choose your preferred wallet</p>
+                    <ul>
+                        <li>
+                            <img src={metataskred} alt="" className = "connectWallet-img" />
+                            <p className = "connectWallet-name">Metamask</p>
+                            <img src={direction} alt="" className = "connectWallet-imgdir" />
+                        </li>
+                        <li>
+                            <img src={WalletConnect} alt="" className = "connectWallet-img" />
+                            <p className = "connectWallet-name">WalletConnect</p>
+                            <img src={direction} alt="" className = "connectWallet-imgdir" />
+                        </li>
+                    </ul>
+                </div>    
             </div> : " "}
 
             {clickedNav ?  <nav className="header__nav-mobile">
