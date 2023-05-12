@@ -1,7 +1,6 @@
 import imgLogo from '../img/logo-img.png';
 import imgTxt from '../img/logo-txt.png';
 import {Link} from 'react-router-dom';
-import bar from '../img/fa-bar.png';
 
 import metataskred from '../img/metamask-red.png';
 import WalletConnect from '../img/walletconnect.png';
@@ -38,7 +37,8 @@ function Navbar() {
             </div>
             <div>
                 <div href="##" class="icon">
-                    <img src={bar} alt='' className='fa-bar' onClick={nav}/>
+                    <span className='fa' onClick={nav}>|</span>
+                    
                 </div>
             </div>
             <nav className="header__nav">

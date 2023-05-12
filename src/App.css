@@ -587,3 +587,21 @@ html {
   line-height: 2.5rem;
   color: inherit;
 }
+
+.icon {
+ margin-right: 1.5rem;
+}
+
+.fa {
+  font-size: 5rem;
+  transform: rotate(90deg) scale(1.3);
+  display: block;
+}
+
+.fa::after{
+  content: '|';
+}
+
+.fa::before {
+  content: '|';
+}
