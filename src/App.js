@@ -4,6 +4,8 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Home from './components/Home';
 import Places from './components/Places';
+import SectionNft from './components/SectionNft';
+import Adventure from './components/Adventures';
 
 function App() {
   return (
@@ -13,6 +15,8 @@ function App() {
           <Routes>
             <Route exact path="/" element={<Home />} />
             <Route path="/place" element={<Places />} />
+            <Route path="/nft" element={<SectionNft />} />
+            <Route path="/community" element={<Adventure />} />
           </Routes>
           <Footer />
       </HashRouter>

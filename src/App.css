@@ -53,19 +53,30 @@ html {
     display: none;
   }
 
-  .header__nav-mobile {
-    border-radius: 1.5rem;
-    display: flex;
-    flex: 0 0 100%;
-    padding: 3rem;
-    background: #a02278;
-  }
+  
+}
+
+.header__nav-mobile {
+  z-index: 10;
+  border-radius: 1.5rem;
+  display: flex;
+  flex: 0 0 100%;
+  background:linear-gradient(to right bottom, #a02278f6, #390b4ff6);
+  padding: 2rem;
+}
+
+.nav-list-mobile {
+  list-style: none;
+}
+
+.nav-list-mobile > * {
+  margin-bottom: 2rem;
+  font-size: 2.5rem;
 }
 
 .nav-list {
   display: flex;
   justify-content: space-between;
-  align-items: center;
   list-style: none;
 }
 
@@ -74,14 +85,6 @@ html {
 }
 
 @media screen and (max-width: 750px) {
-  .nav-list-mobile {
-    list-style: none;
-  }
-
-  .nav-list-mobile > * {
-    margin-bottom: 2rem;
-    font-size: 2.5rem;
-  }
 
   .places-list {
     display: grid;
@@ -122,13 +125,27 @@ html {
   border: none;
 }
 
-.fa-bar {
-  height: 5rem;
+.icon {
+  margin-right: 1.5rem;
   display: none;
-}
+ }
+ 
+ .fa {
+   font-size: 5rem;
+   transform: rotate(90deg) scale(1.3);
+   display: block;
+ }
+ 
+ .fa::after{
+   content: '|';
+ }
+ 
+ .fa::before {
+   content: '|';
+ }
 
 @media screen and (max-width: 750px) {
-  .fa-bar {
+  .icon {
     display: block;
   }
 
@@ -329,7 +346,7 @@ html {
 /* ***** WALLET ***** */
 
 .wallet {
-  padding: 2rem 5%;
+  padding: 2rem 3%;
   display: flex;
   justify-content: space-between;
   background-color: #A02279;
@@ -351,13 +368,14 @@ html {
 
 @media screen and (max-width: 750px) {
   .wallet__link {
-    font-size: 1.9rem;
+    font-size: 1.6rem;
     line-height: 1.5rem;
   }
 }
 
 .wallet__img {
-  margin-right: .75rem;
+  margin-right: .5rem;
+  height: 2.5rem;
 }
 
 /* ***** ADVENTURES - CARD SECTION ***** */
@@ -586,22 +604,4 @@ html {
   font-weight: 400;
   line-height: 2.5rem;
   color: inherit;
-}
-
-.icon {
- margin-right: 1.5rem;
-}
-
-.fa {
-  font-size: 5rem;
-  transform: rotate(90deg) scale(1.3);
-  display: block;
-}
-
-.fa::after{
-  content: '|';
-}
-
-.fa::before {
-  content: '|';
 }
