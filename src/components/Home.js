@@ -5,7 +5,7 @@ import Adventures from './Adventures';
 
 function Home() {
     return (
-        <section>
+        <section className="home">
             <Intro />
             <Wallet />
             <Adventures />
