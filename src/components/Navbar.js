@@ -42,10 +42,18 @@ function Navbar() {
             </div>
             <nav className="header__nav">
                 <ul className="nav-list">
-                    <li className="nav-item"><Link to="/" className="nav-link">Home</Link></li>
-                    <li className="nav-item"><Link to="/place" className="nav-link">Place to stay</Link></li>
-                    <li className="nav-item" ><Link to="/nft" className="nav-link">NFTs</Link></li>
-                    <li className="nav-item"><Link to="/community" className="nav-link">Community</Link></li>
+                    <li className="nav-item">
+                        <Link to="/" className="nav-link">Home</Link>
+                    </li>
+                    <li className="nav-item">
+                        <Link to="/place" className="nav-link">Place to stay</Link>
+                    </li>
+                    <li className="nav-item" >
+                        <Link to="/nft" className="nav-link">NFTs</Link>
+                    </li>
+                    <li className="nav-item">
+                        <a href="https://www.github.com/jubrealguy" className="nav-link">Community</a>
+                    </li>
                     <li className="header__btn">
                         <button className="header__btn-link" onClick={connectWallet}>Connect wallet</button>
                     </li>
@@ -77,10 +85,18 @@ function Navbar() {
 
             {clickedNav ?  <nav className="header__nav-mobile">
                 <ul className="nav-list-mobile">
-                    <li className="nav-item-mobile" onClick={nav}><Link to='/' className="nav-link-mobile">Home</Link></li>
-                    <li className="nav-item-mobile" onClick={nav}><Link to='/place' className="nav-link-mobile">Place to stay</Link></li>
-                    <li className="nav-item-mobile" onClick={nav}><Link to="/nft" className="nav-link-mobile">NFTs</Link></li>
-                    <li className="nav-item-mobile" onClick={nav}><Link to="/community" className="nav-link-mobile">Community</Link></li>
+                    <li className="nav-item-mobile" onClick={nav}>
+                        <Link to='/' className="nav-link-mobile">Home</Link>
+                    </li>
+                    <li className="nav-item-mobile" onClick={nav}>
+                        <Link to='/place' className="nav-link-mobile">Place to stay</Link>
+                    </li>
+                    <li className="nav-item-mobile" onClick={nav}>
+                        <Link to="/nft" className="nav-link-mobile">NFTs</Link>
+                    </li>
+                    <li className="nav-item-mobile">
+                        <a href="https://www.github.com/jubrealguy" className="nav-link-mobile">Community</a>
+                    </li>
                     <li className="header__btn-mobile">
                         <button className="header__btn-link-mobile" onClick={connectWallet}>Connect wallet</button>
                     </li>

@@ -24,6 +24,12 @@ html {
 .home {
   padding-top: 14rem;
 }
+
+@media screen and (max-width: 750px) {
+  .home {
+    padding-top: 18rem;
+  }
+}
 /* ***** HEADER && NAVBAR ***** */
 
 .header {
@@ -58,7 +64,6 @@ html {
   list-style: none;
 }
 
-
 .header__nav-mobile {
   display: none;
 }
@@ -75,21 +80,22 @@ html {
 }
 
 .header__nav-mobile {
-  z-index: 10;
   border-radius: 1.5rem;
   display: flex;
   flex: 0 0 100%;
- 
   padding: 2rem;
+  height: 100vh;
 }
 
 .nav-list-mobile {
   list-style: none;
+  margin: 15rem auto;
 }
 
 .nav-list-mobile > * {
-  margin-bottom: 2rem;
+  margin-bottom: 5rem;
   font-size: 2.5rem;
+  text-align: center;
 }
 
 .places-list {
@@ -97,7 +103,6 @@ html {
 }
 
 @media screen and (max-width: 750px) {
-
   .places-list {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
